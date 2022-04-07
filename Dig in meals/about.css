@@ -1,0 +1,32 @@
+.navbar {
+    padding: 1.5%;
+    font-size: 1.5em;
+}
+
+body {
+    background-color: rgb(33, 37, 41);
+    color: #F7F5F2;
+}
+
+.card {
+    border-radius: 5%;
+    max-width: 98%;
+    background-color: #F7F5F2;
+}
+
+.cb {
+    color: black;
+}
+
+.center-block {
+    text-align: center;
+}
+
+.d-block {
+    border-radius: 4%;
+}
+
+.display-1,
+.display-4 {
+    font-family: 'Cinzel', serif;
+}

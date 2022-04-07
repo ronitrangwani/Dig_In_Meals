@@ -1,0 +1,162 @@
+body {
+    background-color: rgb(33, 37, 41);
+    color: aliceblue
+}
+
+body {
+    font-family: Avenir Next;
+    position: relative;
+}
+
+.display-3 {
+    font-family: 'Cinzel', serif;
+}
+
+.center-block {
+    text-align: center;
+}
+
+.navbar {
+    padding: 1.5%;
+    font-size: 1.5em;
+}
+
+.main h3 {
+    text-align: center;
+    font-size: 16px;
+}
+
+.main h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.sb {
+    text-align: center;
+    margin-left: 49%;
+}
+
+.bag-btn {
+    transition: all 0.3s linear;
+    border: none;
+    transform: translateX(101%);
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.products-container {
+    max-width: 650px;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.products-container ion-icon {
+    font-size: 25x;
+    color: aliceblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.product-header {
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 4px solid lightgrey;
+    margin: 0 auto;
+}
+
+.product-title {
+    width: 40%;
+    margin-left: 10px;
+}
+
+.price {
+    width: 20%;
+    align-items: center;
+    display: flex;
+}
+
+.quantity {
+    width: 20%;
+    display: flex;
+}
+
+.total {
+    width: 10%;
+    display: flex;
+}
+
+.product {
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+.products {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products img {
+    width: 75px;
+}
+
+.basketTotalContainer {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.basketTotalTitle {
+    width: 80%;
+    font-size: 20px;
+}
+
+.basketTotal {
+    font-size: 25px;
+    width: 20%;
+}
+
+.image img {
+    padding: 1px;
+    margin: auto;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    height: 200px;
+    display: block;
+}
+
+.image img:hover {
+    opacity: 1;
+    padding: 10px;
+    bottom: 50px;
+    border-radius: 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+.cart ion-icon {
+    vertical-align: top;
+    padding-right: 5px;
+    padding-top: 5px;
+}

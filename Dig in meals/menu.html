@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dig in Meals</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="js/bootstrap-transition.js"></script>
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="nav.css">
+
+</head>
+
+<body>
+
+    <label>
+        <input type="checkbox"></input>
+        <span class="menu">
+          <span class="hamburger"></span>
+        </span>
+        <ul>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="menu.html">Food Menu</a>
+            </li>
+            <li class="nav-item cart">
+                <a class="nav-link" href="cart.html">
+                    <ion-icon name="basket"></ion-icon>Cart<span> 0 </span></a>
+            </li>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </ul>
+      </label>
+
+
+    <div class="album py-5 bg-dark">
+        <div class="container">
+
+            <div class="center-block">
+                <h3 class="display-3 fw-bold">INDO-CHINESE</h3>
+            </div>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <div class="image-div">
+                            <img class="bd-placeholder-img card-img-top " width="100%" height="225" src="images/Manchow.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Manchow Shop</h3>
+                                    </li>
+                                    <li>Additional Croutons</li>
+                                    <li>Rs.199</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart1" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/TomatoBasilSoup.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Tomato basil Soup</h3>
+                                    </li>
+                                    <li>Additional Croutons</li>
+                                    <li>Rs.249</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart2" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/SpringRolls.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Spring Rolls</h3>
+                                    </li>
+                                    <li>Customizable flavour</li>
+                                    <li>Rs.140</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart3" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/DimSums.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Dim Sums</h3>
+                                    </li>
+                                    <li>Customizable flavour</li>
+                                    <li>Rs.140</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart4" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/Dumplings.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Dumplings</h3>
+                                    </li>
+                                    <li>Customizable flavour </li>
+                                    <li>Rs.120</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart5" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/ChilliPotato.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Chilli Potato</h3>
+                                    </li>
+                                    <li>Customizable flavour</li>
+                                    <li>Rs.249</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <a class="add-cart adder cart6" href="#">Add to Cart</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/StirFriedTofu.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Stir fried Tofu</h3>
+                                    </li>
+                                    <li>With rice</li>
+                                    <li>Rs.499</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart7" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/ChineseCombo.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Chinese combo</h3>
+                                    </li>
+                                    <li>Customizable flavour</li>
+                                    <li>Rs.299</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart8" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/VegChopSuey.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Chop Suey</h3>
+                                    </li>
+                                    <li>with/without gravy</li>
+                                    <li>Rs.349</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart9" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br><br>
+
+            <div class="center-block">
+                <h3 class="display-3 fw-bold">INDIAN</h3>
+            </div>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/MulligatawnySoup.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Mulligatawny Soup</h3>
+                                    </li>
+                                    <li>With rice</li>
+                                    <li>Rs.359</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart10" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/TomatoSoup.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Tomato soup</h3>
+                                    </li>
+                                    <li>with/witout cream</li>
+                                    <li>Rs.249</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart11" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/PaneerTikka.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Paneer tikka</h3>
+                                    </li>
+                                    <li>Customizable dip</li>
+                                    <li>Rs.199</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart12" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/SeekhKabab.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Seekh kabab</h3>
+                                    </li>
+                                    <li>Customizable dip</li>
+                                    <li>Rs.199</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart13" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/KachhoriPlatter.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Kachhori Platter</h3>
+                                    </li>
+                                    <li>Customizable Filling</li>
+                                    <li>Rs.149</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart14" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/KhandviPlatter.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Khandvi Platter</h3>
+                                    </li>
+                                    <li>Customizable Dip</li>
+                                    <li>Rs.149</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart15" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/CholeBhature.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Chole Bhature</h3>
+                                    </li>
+                                    <li>3 Bhaturas per plate</li>
+                                    <li>Rs.299</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart16" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/LittiChokha.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Litti chokha</h3>
+                                    </li>
+                                    <li>3 pieces per plate</li>
+                                    <li>Rs.349</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart17" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/RajmaChawal.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Rajma Chawal</h3>
+                                    </li>
+                                    <li>Rs.299</li><br>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart18" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br><br>
+
+
+            <div class="center-block">
+                <h3 class="display-3 fw-bold">JAPANESE</h3>
+            </div>
+
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/MushroomSoup.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Mushroom soup</h3>
+                                    </li>
+                                    <li>Rs.249</li><br>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart19" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/Misosoup.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Miso soup</h3>
+                                    </li>
+                                    <li>Rs.249</li><br>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart20" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/Onigiri.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Onigiri</h3>
+                                    </li>
+                                    <li>Customizable flavour</li>
+                                    <li>Rs.299</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart21" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/Senbei.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Senbei</h3>
+                                    </li>
+                                    <li>With rice</li>
+                                    <li>Rs.299</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart22" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/Dorayaki.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Dorayaki</h3>
+                                    </li>
+                                    <li>Customizable flavour</li>
+                                    <li>Rs.299</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart23" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/Sushi.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Sushi</h3>
+                                    </li>
+                                    <li>Customizable flavour</li>
+                                    <li>Rs.249</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart24" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/Udon.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Udon</h3>
+                                    </li>
+                                    <li>Customizable dip</li>
+                                    <li>Rs.299</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart25" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/Okonomiyaki.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Okonomiyaki</h3>
+                                    </li>
+                                    <li>Rs.499</li><br>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart26" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/Omurice.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Omurice</h3>
+                                    </li>
+                                    <li>Rs.399</li><br>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart27" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br><br>
+
+
+            <div class="center-block">
+                <h3 class="display-3 fw-bold">ITALIAN</h3>
+            </div>
+
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/ItalianSoup.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Italian soup</h3>
+                                    </li>
+                                    <li>Additional Croutons</li>
+                                    <li>Rs.149</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart28" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/RobollitaSoup.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Robollita soup</h3>
+                                    </li>
+                                    <li>Rs.199</li><br>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart29" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/Pizza.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Pizza</h3>
+                                    </li>
+                                    <li>Customizable flavour</li>
+                                    <li>Rs.299</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart30" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/Pasta.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Pasta</h3>
+                                    </li>
+                                    <li>Customizable flavour</li>
+                                    <li>Rs.249</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart31" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/Bruschetta.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Bruschetta</h3>
+                                    </li>
+                                    <li>With whole wheat bread</li>
+                                    <li>Rs.299</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart32" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/Pinwheel.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Pinwheel</h3>
+                                    </li>
+                                    <li>Customizable flavour</li>
+                                    <li>Rs.299</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart33" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/VeganSpaghetti.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Vegan spaghetti</h3>
+                                    </li>
+                                    <li>Customizable flavour</li>
+                                    <li>Rs.299</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart34" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/Crespelle.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Crespelle</h3>
+                                    </li>
+                                    <li>Customizable flavour</li>
+                                    <li>Rs.399</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart35" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm alert alert-info">
+                        <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="images/GrilledVegetable.jpg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <div class="card-body">
+                            <p class="card-text">
+                                <ul class="foodlist">
+                                    <li>
+                                        <h3>Grilled vegetable</h3>
+                                    </li>
+                                    <li>Baked also available</li>
+                                    <li>Rs.349</li>
+                                </ul>
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a class="add-cart adder cart36" href="#">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container bg-dark nav-pills">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">
+                <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="privacy.html" class="nav-link px-2 text-muted">Privacy Policy</a></li>
+                <li class="nav-item"><a href="tnc.html" class="nav-link px-2 text-muted">Terms and condition</a></li>
+            </ul>
+            <p class="text-center text-muted">&copy; Dig in Meals</p>
+        </footer>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="main1.js"></script>
+</body>
+
+</html>

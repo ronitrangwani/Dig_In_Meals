@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(33, 37, 41);
+    color: aliceblue
+}
+
+.p {
+    color: aliceblue;
+}
+
+.navbar {
+    padding: 1.5%;
+    font-size: 1.5em;
+}
+
+.center-block {
+    text-align: center;
+}
+
+.display-1 {
+    font-family: 'Cinzel', serif;
+}

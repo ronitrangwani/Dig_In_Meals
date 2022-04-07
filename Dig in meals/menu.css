@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+body {
+    background-color: rgb(33, 37, 41);
+    color: aliceblue;
+}
+
+.navbar {
+    padding: 1.5%;
+    font-size: 1.5em;
+}
+
+.center-block {
+    text-align: center;
+}
+
+.foodlist {
+    list-style: none;
+    color: rgb(33, 37, 41);
+}
+
+.btn-group {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+.cart ion-icon {
+    vertical-align: top;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.add-cart {
+    position: absolute;
+    width: 92%;
+    background-color: rgb(33, 37, 41);
+    color: aliceblue;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card:hover .adder {
+    top: 198px;
+    right: 17px;
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.card {
+    border-radius: 4%;
+    background-color: #F7F5F2;
+}
+
+.display-3 {
+    font-family: 'Cinzel', serif;
+}
